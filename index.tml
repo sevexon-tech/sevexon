@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sevexon Technologies</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <img src="images/sevexon-logo.png" class="logo">
+  <div class="nav-links">
+    <a href="#programs">Programs</a>
+    <a href="#why">Why Sevexon</a>
+    <a href="#outcomes">Outcomes</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact" class="btn">Enroll Now</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <span class="tag">Build the Future of Defense</span>
+    <h1>Become a <span>Job-Ready</span> Cybersecurity Analyst</h1>
+    <p>Real-time SOC training with hands-on labs and career mentorship</p>
+    <a href="#contact" class="btn">Enroll Now</a>
+  </div>
+</header>
+
+<!-- PROGRAMS -->
+<section id="programs" class="section">
+<h2>Career-Focused Training Programs</h2>
+
+<div class="grid">
+
+<div class="card"><h3>SOC Analyst Training</h3></div>
+<div class="card"><h3>Defensive Security (Blue Team)</h3></div>
+<div class="card"><h3>Digital Forensics & IR</h3></div>
+<div class="card"><h3>GRC & Compliance</h3></div>
+<div class="card"><h3>VAPT (Web, Network, Mobile)</h3></div>
+
+</div>
+</section>
+
+<!-- WHY SEVEXON -->
+<section id="why" class="section alt">
+<h2>Why Choose Sevexon</h2>
+<p>Real-world attack simulations, live SOC, placement support and more.</p>
+</section>
+
+<!-- OUTCOMES -->
+<section id="outcomes" class="section">
+<h2>From Beginner to Cyber Professional</h2>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section alt">
+<h2>Success Stories</h2>
+</section>
+
+<!-- FORM -->
+<section id="contact" class="section">
+<h2>Request a Free Consultation</h2>
+
+<form action="https://formspree.io/f/xeelzkwp" method="POST">
+
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<input type="tel" name="phone" placeholder="Phone" required>
+
+<select name="course" required>
+<option>Select</option>
+<option>Certified Security Operations Center (SOC) Analyst – Level 1</option>
+<option>Digital Forensics & Incident Response (DFIR) Professional</option>
+<option>Certified Risk & Compliance Practitioner (CRCP)</option>
+<option>Certified Offensive Security & Ethical Hacking Professional</option>
+<option>AI-Driven Digital Transformation Specialist</option>
+</select>
+
+<input type="hidden" name="_next" value="https://sevuga-perumal.github.io/sevexon-technologies/thankyou.html">
+
+<button type="submit" class="btn">Submit Enquiry</button>
+
+</form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>📧 sevexontechnologies@gmail.com</p>
+<p>📞 +91 8220438669</p>
+<p>📍 Chennai, India</p>
+<p>© 2026 Sevexon Technologies</p>
+</footer>
+
+</body>
+</html>
