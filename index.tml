@@ -11,7 +11,8 @@
 
 <!-- NAVBAR -->
 <nav class="navbar">
-  <img src="images/sevexon-logo.png" class="logo">
+  <img src="https://raw.githubusercontent.com/sevexon-tech/sevexon/main/sevexon-logo.png" class="logo" alt="Sevexon Technologies">
+
   <div class="nav-links">
     <a href="#programs">Programs</a>
     <a href="#why">Why Sevexon</a>
@@ -25,8 +26,11 @@
 <header class="hero">
   <div class="hero-content">
     <span class="tag">Build the Future of Defense</span>
+
     <h1>Become a <span>Job-Ready</span> Cybersecurity Analyst</h1>
-    <p>Real-time SOC training with hands-on labs and career mentorship</p>
+
+    <p>Real-time SOC training with hands-on labs, live threat detection, and career mentorship</p>
+
     <a href="#contact" class="btn">Enroll Now</a>
   </div>
 </header>
@@ -46,10 +50,10 @@
 </div>
 </section>
 
-<!-- WHY SEVEXON -->
+<!-- WHY -->
 <section id="why" class="section alt">
 <h2>Why Choose Sevexon</h2>
-<p>Real-world attack simulations, live SOC, placement support and more.</p>
+<p>Real-world attack simulations, live SOC environment, career roadmap and placement guidance.</p>
 </section>
 
 <!-- OUTCOMES -->
@@ -62,15 +66,15 @@
 <h2>Success Stories</h2>
 </section>
 
-<!-- FORM -->
+<!-- CONTACT FORM -->
 <section id="contact" class="section">
 <h2>Request a Free Consultation</h2>
 
 <form action="https://formspree.io/f/xeelzkwp" method="POST">
 
 <input type="text" name="name" placeholder="Full Name" required>
-<input type="email" name="email" placeholder="Email" required>
-<input type="tel" name="phone" placeholder="Phone" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
 
 <select name="course" required>
 <option>Select</option>
@@ -90,10 +94,13 @@
 
 <!-- FOOTER -->
 <footer>
+
 <p>📧 sevexontechnologies@gmail.com</p>
 <p>📞 +91 8220438669</p>
 <p>📍 Chennai, India</p>
-<p>© 2026 Sevexon Technologies</p>
+
+<p>© 2026 Sevexon Technologies. All rights reserved.</p>
+
 </footer>
 
 </body>
